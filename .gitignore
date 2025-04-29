@@ -1,0 +1,34 @@
+# Node.js dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+out/
+*.tsbuildinfo
+
+# Runtime artifacts
+clips/
+elements.json
+original.png
+
+# Logs
+*.log
+npm-debug.log*
+yarn-error.log*
+
+# Environment/API keys
+.env
+.env.*
+!.env.example
+
+# Editor/IDE configs
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test artifacts
+cdp-test/
