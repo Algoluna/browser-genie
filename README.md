@@ -4,6 +4,12 @@
 
 ---
 
+## Demo Video
+
+https://youtu.be/5xMHx5H72RY
+
+[![Browser Genie Demo](https://img.youtube.com/vi/5xMHx5H72RY/0.jpg)](https://youtu.be/5xMHx5H72RY)
+
 ## High-Level Architecture
 
 ```
