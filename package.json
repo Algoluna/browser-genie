@@ -1,0 +1,31 @@
+{
+  "name": "browser-genie",
+  "version": "1.0.0",
+  "description": "Modular browser automation agent using CDP and OpenAI GPT-4o",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "ts-node src/cli/cli.ts",
+    "build": "tsc",
+    "lint": "eslint . --ext .ts",
+    "test": "echo \"No tests yet\""
+  },
+  "dependencies": {
+    "canvas": "^3.1.0",
+    "chrome-remote-interface": "^0.33.3",
+    "commander": "^12.0.0",
+    "devtools-protocol": "^0.0.1439962",
+    "marked": "^15.0.7",
+    "marked-terminal": "^7.3.0",
+    "openai": "^4.90.0"
+  },
+  "devDependencies": {
+    "@types/chrome-remote-interface": "^0.31.14",
+    "@types/node": "^20.11.30",
+    "@typescript-eslint/eslint-plugin": "^7.4.0",
+    "@typescript-eslint/parser": "^7.4.0",
+    "eslint": "^8.57.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3",
+    "why-is-node-running": "^3.2.2"
+  }
+}
