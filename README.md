@@ -12,7 +12,7 @@ https://youtu.be/5xMHx5H72RY
 
 ## High-Level Architecture
 
-```
+```mermaid
 flowchart TD
     CLI["CLI (src/cli/cli.ts)"] --> Genie["BrowserGenie (src/core/BrowserGenie.ts)"]
     Genie --> Planner["ActionPlanner (src/core/ActionPlanner.ts)"]
